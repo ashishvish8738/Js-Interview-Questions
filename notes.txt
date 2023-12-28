@@ -1,0 +1,36 @@
+
+1. What is JS? What is the role of JS Engine.
+Ans. Javascript is a programming language that is used for converting static web pages to interactive and dynamic web pages.
+Every browser contain JS engine inside it for executing JS codes. Ex- Chrome V8, Firefox Spidermonkey, Safari JS core, Microsoft Edge Chakra, etc
+
+2. What is client side and server side?
+Ans. A client is a device, application, or software components that requests and consumes services or resources from a server.
+whereas a server is a device, computer or software application that provides services, resources, or functions to clients.
+
+3. What are variables? what is the diffrence between var let and const?
+Ans. Var creates a function-scoped variable. Let creates a block-scoped variable. Const can be assigned only once, and its value cannot be changed afterwards.
+Ex- function example(){                     
+    if(true){
+        var count=10;
+        console.log(count);
+        // Output : 10
+    }
+}
+
+4. What is error propogation in JS?
+Ans. Error propogation refers to the process of passing or propogation an error from one part of the code to another by using the throw statement with try and catch.
+Ex- function UserData(){
+    try{
+        validateUserAge(25);
+        validateUserAge("invalid);  // This will throw error
+        validateUserAge(15);  // This will not execute
+    } catch (error){
+        console.error("Error:", error.message);
+    }
+}
+function validateUserAge(age){
+    if(typeof age !== "number"){
+        throw new Error("Age must be a number");
+    }
+    console.log("User age is valid");
+}
