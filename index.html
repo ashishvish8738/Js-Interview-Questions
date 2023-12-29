@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+// Array Questions:---
+
+// How to find duplicates element in array?
+        // const arrNumber=[1,2,8,2,9,8]
+        // const duplicates = arrNumber.filter((ele,index,arr) => arr.indexOf(ele)!==index)
+        // console.log(duplicates);
+
+
+
+// How to find Max and Min value in a given Array in JS?
+// Maximum
+        // const arrNumber=[1,9,87,65,655];
+        // const maxFunction=(arr)=>{
+        //     return arr.reduce(function(pre,cur){
+        //         return pre>cur?pre:cur
+        //     })
+        // }
+        // console.log(maxFunction(arrNumber))
+// Minimum
+        // const arrNumber=[1,9,87,65,655];
+        // const minFunction=(arr)=>{
+        //     return arr.reduce(function(pre,cur){
+        //         return pre<cur?pre:cur
+        //     })
+        // }
+        // console.log(minFunction(arrNumber))
+
+
+
+// Diffrence between == and === ?
+            // var x=7;
+            // var y='7';
+            // console.log(x===y);
+
+
+
+// How to find second largest value, and remove first largest value in array?
+    // step1- find largest value from array
+     // step2-  find index of largest value
+    // step3-  delete index from Array using splice method
+    // step4- Apply same logic that use for find largest value
+            // const intArray= [2,8,9,7]
+            // const largestValue=(arr)=>{
+            //     firstLargestValue=Math.max(...arr)
+            //     index=arr.indexOf(firstLargestValue)
+            //     arr.splice(index,1)
+            //     secondLargestValue=Math.max(...arr)
+            //     return(secondLargestValue)
+            // }
+            // console.log(largestValue(intArray))
+
+
+
+// What is the diffrence between filter() and find() method?
+    // filter() method returns the matched value in an array from the collection.
+    // find() method returns the first value that matches from the collection Once it matches the value in findings, it will not check the remaining values in the array collection.
+                // const empArr = [
+                //     {name:"king", age:42},
+                //     {name:"Aman", age:22},
+                //     {name:"Raaman", age:12},
+                //     {name:"Ashish", age:32},
+                //     {name:"Pusha", age:52},
+                //     {name:"kushaun", age:62},
+                //     {name:"Deven", age:72},
+                //     {name:"ravan", age:82},
+                //     {name:"Loyal", age:92},
+                // ];
+// filter()
+                // const filteredItem=empArr.filter((item)=>{
+                //     return item.age>50
+                // })
+                // console.log(filteredItem);
+// find()
+                // const findItem=empArr.find((item)=>{
+                //     return item.age>50
+                // })
+                // console.log(findItem);
+
+
+// How to find the missing number in a given integer array of 1 to 10?
+            // const arrNumber = [1,2,3,4,5,8,9,10,11,12,13,17,25];
+            // const missArray = [];
+            // const missingValue = (arr)=>{
+            //     const minValue = Math.min(...arr)
+            //     const maxValue = Math.max(...arr)
+            //     for(let i=minValue;i<maxValue;i++){
+            //         if(arr.indexOf(i)<0){
+            //              missArray.push(i)
+            //         }
+            //     }
+            //     return(missArray)
+            // }
+            // console.log(missingValue(arrNumber))
+
+
+
+// How to fnd even or odd in Array using JS?
+            // const numbers=[1,2,3,4,5,6,7,8,9,10,13,17,18];
+            // const even = numbers.filter((item)=>{
+            //     return item%2===0
+            // })
+            // const odd = numbers.filter((item)=>{
+            //     return item%2==!0
+            // })
+            // console.log("Odd numbers:",odd)
+            // console.log("Even numbers:", even)
+
+
+// How to find sum of all elements in a given array[] in Javascript?
+            // const arrNum = [1,9,6,4];
+            // const sumOfNumbers = (arr)=>{
+            //     return arr.reduce((pre,cur)=>{
+            //         return pre+cur
+            //     })
+            // }
+            // console.log(sumOfNumbers(arrNum))
+
+
+// How to find Factorial(n!) of a given number in JS?
+    //   Factorial of negative number is not possible
+    
+
+
+    </script>
+</body>
+</html>
