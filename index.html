@@ -533,7 +533,14 @@
 // console.log(stringAlphabeticalOrder("Apple"));
 
 
-
+// Write JS function that accepts a string as parameter and converts the first letter of each word in capital letter?
+function capitalizeKaro(str){
+        var allWords = str.split(" ").map(function(word){
+                return word.charAt(0).toUpperCase() + word.substring(1);
+        })
+        return allWords.join(" ");
+}
+console.log(capitalizeKaro("amaansdfg sadsf"))
 
 
 
