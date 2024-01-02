@@ -568,7 +568,67 @@
 
 
 // In an array of numbers and strings, only add those members which are not strings?
+// var arr = ["hehehee",123,"dfsfsgw",45567,"fsdfwgre"];
+// var sum =0;
+// arr.forEach(function (elem){
+//         if(typeof elem === 'number'){
+//                 sum = sum + elem;
+//         }
+// })
+// console.log(sum)
 
+
+
+// Loop an array of objects and remove all objects which don't have gender value male?
+var arr = [
+        {name: "Ashish", gender:"male"},
+        {name: "Kunal", gender:"gay"},
+        {name: "Anand", gender:"female"},
+        {name: "Ambooj", gender:"male"},
+        {name: "Vishal", gender:"gender is not specified"},
+        {name: "Vikas", gender:"male"},
+        {name: "lakshya", gender:"female"},
+];
+// 1st method
+// var newarr = arr.filter(function(elem){
+//         return elem.gender === "male";
+// })
+
+// 2nd Method 
+// var count = 0;
+// arr.forEach(function (elem){
+//         if(elem.gender !== "male") 
+//         count++;
+// })
+// for(var i=1;i<=count;i++){
+//         for(var j=0;j<arr.length;j++){
+//         if(arr[j].gender !== "male"){
+//                 arr.splice(j,1);
+//         }
+// }
+// }
+// console.log(arr);
+
+
+
+// Write a function to clone an Array?
+// 1st method 
+// function cloneArr(arr){
+//         return [...arr]
+// }
+// var newArr = cloneArr([1,2,3,4,5]);
+// console.log(newArr)
+
+// 2nd Method 
+// function cloneArr(arr){
+//         var newarr = [];
+//         arr.forEach(function (e){
+//                 newarr.push(e);
+//         })
+//         return newarr;
+// }
+// var abcd = [1,2,3];
+// var newarr = cloneArr(abcd);
 
 
 
