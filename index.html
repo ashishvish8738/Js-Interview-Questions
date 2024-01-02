@@ -580,15 +580,15 @@
 
 
 // Loop an array of objects and remove all objects which don't have gender value male?
-var arr = [
-        {name: "Ashish", gender:"male"},
-        {name: "Kunal", gender:"gay"},
-        {name: "Anand", gender:"female"},
-        {name: "Ambooj", gender:"male"},
-        {name: "Vishal", gender:"gender is not specified"},
-        {name: "Vikas", gender:"male"},
-        {name: "lakshya", gender:"female"},
-];
+// var arr = [
+//         {name: "Ashish", gender:"male"},
+//         {name: "Kunal", gender:"gay"},
+//         {name: "Anand", gender:"female"},
+//         {name: "Ambooj", gender:"male"},
+//         {name: "Vishal", gender:"gender is not specified"},
+//         {name: "Vikas", gender:"male"},
+//         {name: "lakshya", gender:"female"},
+// ];
 // 1st method
 // var newarr = arr.filter(function(elem){
 //         return elem.gender === "male";
@@ -629,6 +629,34 @@ var arr = [
 // }
 // var abcd = [1,2,3];
 // var newarr = cloneArr(abcd);
+// newarr.pop();               to remove 1 value from last we use pop();
+// console.log(newarr);
+
+// 3rd Method 
+// function cloneArr(arr){
+//         return arr.map(function(e){
+//                 return e;
+//         })
+// }
+// var newarr = cloneArr([1,2,3,4]);
+// newarr.pop();
+
+
+
+// Write a Js function which accepts an argument and returns the type?
+// function typeTeller(elem){
+//         return typeof elem;
+// } 
+// console.log(typeTeller([]));
+// console.log(typeTeller(12));
+// console.log(typeTeller("12"));
+// console.log(typeTeller(true));
+// console.log(typeTeller(undefined));
+// console.log(typeTeller(function(){}));
+
+
+
+// Write a JS function to get the first element of an array. Passing a parameter 'n' will return the first 'n' elements of the array?
 
 
 
