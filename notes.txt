@@ -39,4 +39,4 @@ function validateUserAge(age){
 Ans. Swallow copy in nested objects case will modify the parent objects property value, if cloned objects property value is changed. But deep copy will not modify the parent object property value.
 
 6. What is the diffrence between Promise.all() and Promise.race()?
-Ans. sfdSAFDAFsfgsfggtrdfgdfghgfhrtfvd3e3244r
+Ans. sfdSAFDAFsfgsfggtrdfgdfghgfhrtfvd3e3244rdsfqegq34
