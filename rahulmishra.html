@@ -11,6 +11,14 @@
 
 <script>
 
+// Convert this set to array using 3 diffrent ways 
+
+// const mySet = new Set([1,2,3,4]);
+// const way1 = [...mySet];
+// const way2 = Array.from(mySet);
+// const way3 = new Array(...mySet);
+// console.log(`way1=${way1},way2=${way2},way3=${way3}`);
+
 
 // Give 4 ways to create IIFE
 
@@ -62,18 +70,18 @@
 // console.log(JSON.stringify(str));
 
 
-const Obj = {};
-const set1 = new Set();
-const set2 = new Set();
+// const Obj = {};
+// const set1 = new Set();
+// const set2 = new Set();
 
-set1.add(Obj);
-set1.add(Obj);
+// set1.add(Obj);
+// set1.add(Obj);
 
-set2.add({});
-set2.add({});
+// set2.add({});
+// set2.add({});
 
-console.log(set1.size);
-console.log(set2.size);
+// console.log(set1.size);    same refrence ko point kar rha hai iss liye isska output 1 aaega
+// console.log(set2.size);    diffrent refrence ko point kar rha hai jiski wjah se ye 2 output dega q ki 2 objects add ho rhe hai yaha pr 
 
 
 
