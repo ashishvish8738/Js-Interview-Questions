@@ -40,4 +40,4 @@ Ans. Swallow copy in nested objects case will modify the parent objects property
 
 6. What is the diffrence between Promise.all() and Promise.race()?
 Ans. sfdSAFDAFsfgsfggtrdfgdfghgfhrtfvd3e3244rdsfqegq34rgw44wvfwefdgergwregeth4t54ggergegrdfbrhthewfefergegergwrg
-wdfwvwdsvevdfvdvdbbedafsdfsasqvqdadvdsvzxscsafadasdf
+wdfwvwdsvevdfvdvdbbedafsdfsasqvqdadvdsvzxscsafadasdfwdfwvwdsvevdfvdvdbbedafsdfsasqvqdadvdsvzxscsafadasdfwdfwvwdsvevdfvdvdbbedafsdfsasqvqdadvdsvzxscsafadasdf
